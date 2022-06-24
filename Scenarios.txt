@@ -1,0 +1,95 @@
+Scenario 1: Filling out the form
+
+Given I want to fill in the automationtesting site form and submit it,
+When I fill in all the information with my correct data,
+Then I click the "submit" button.
+
+Type: Functional
+
+Mode: Happy Scenery
+
+Prerequisites:
+Have access to the link and have your data at hand.
+
+Objective:
+Validate if the form will be submitted successfully
+
+Status:
+automated
+
+Execution:
+Unsuccessfully
+
+Bugs:
+
+2
+
+Bug 1: "Country" selection does not show options and crashes form submission
+
+When I want to select my country in the "country" option, there is no option to select and if I try to eniiva the form without this field filled in, it doesn't let me.
+
+Level: Severe (Disrupts basic flow)
+
+
+Bug 2: Phone field not specified
+
+When I go to fill in the phone field, it doesn't accept it in the normal pattern but also doesn't specify how it should be, thus blocking the form submission.
+
+Level: Severe (Disrupts basic flow)
+
+
+
+Scenario 2: Validate that all "Hobbies" selections are working
+
+Since I want to fill in the form and add all the hobbies options,
+When I click on the three checkboxes,
+Then I validate if they are in check.
+
+Type: Functional
+
+Mode: Happy Scenery
+
+Prerequisites:
+Have access to the link and have your data at hand.
+
+Objective:
+Validate that hobby checks are working correctly
+
+Status:
+automated
+
+Execution:
+Successfully
+
+bugs:
+
+0
+
+
+
+Scenario 3: Adding more than one language
+
+Since I want to fill in the form,
+And I want to add more than one language,
+When I click on Languages, I select more than one I want,
+Then I check if all of them were in the filled field.
+
+Type: Functional
+
+Mode: Happy Scenery
+
+Prerequisites:
+Have access to the link and have your data at hand.
+
+Objective:
+Validate if I can put more than one language in the form
+
+Status:
+automated
+
+Execution:
+Successfully
+
+bugs:
+
+0

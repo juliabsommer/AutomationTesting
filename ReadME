@@ -1,0 +1,16 @@
+##Automation of site automationtesting e2e tests
+
+##How to run them
+Open the folder in VS Code
+open a terminal
+Then write "npm install cypress"
+And the last command "npx cypress open"
+
+##Most used commands:
+cy.visit - Redirect to the page to be automated
+cy.wait - Set a wait time to perform the next action
+cy.get - Pulls the code element I want
+click() - Click on the desired element
+cy.select - Is used for fields with more than one option
+.should('be.visible') - Validate if the element is really there
+.type - Write in some field
